@@ -15,3 +15,4 @@ VS Code
 
 ## 5. Was ist der große Unterschied zwischen den Webframeworks flask und Django
 -Antwort-
+Funzt es?
