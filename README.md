@@ -1,1 +1,0 @@
-# BDK6.5.3_P3_SoSe2021_Anna_Lena_Almstedt
