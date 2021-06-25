@@ -1,0 +1,112 @@
+{
+    "header": {
+        "type": "esummary",
+        "version": "0.3"
+    },
+    "result": {
+        "uids": [
+            "27708327"
+        ],
+        "27708327": {
+            "uid": "27708327",
+            "pubdate": "2016 Oct 6",
+            "epubdate": "",
+            "source": "Nature",
+            "authors": [
+                {
+                    "name": "Perkel J",
+                    "authtype": "Author",
+                    "clusterid": ""
+                }
+            ],
+            "lastauthor": "Perkel J",
+            "title": "Democratic databases: science on GitHub.",
+            "sorttitle": "democratic databases science on github",
+            "volume": "538",
+            "issue": "7623",
+            "pages": "127-128",
+            "lang": [
+                "eng"
+            ],
+            "nlmuniqueid": "0410462",
+            "issn": "0028-0836",
+            "essn": "1476-4687",
+            "pubtype": [
+                "Journal Article"
+            ],
+            "recordstatus": "PubMed - indexed for MEDLINE",
+            "pubstatus": "4",
+            "articleids": [
+                {
+                    "idtype": "pubmed",
+                    "idtypen": 1,
+                    "value": "27708327"
+                },
+                {
+                    "idtype": "pii",
+                    "idtypen": 4,
+                    "value": "538127a"
+                },
+                {
+                    "idtype": "doi",
+                    "idtypen": 3,
+                    "value": "10.1038/538127a"
+                },
+                {
+                    "idtype": "rid",
+                    "idtypen": 8,
+                    "value": "27708327"
+                },
+                {
+                    "idtype": "eid",
+                    "idtypen": 8,
+                    "value": "27708327"
+                }
+            ],
+            "history": [
+                {
+                    "pubstatus": "entrez",
+                    "date": "2016/10/07 06:00"
+                },
+                {
+                    "pubstatus": "pubmed",
+                    "date": "2016/10/07 06:00"
+                },
+                {
+                    "pubstatus": "medline",
+                    "date": "2016/11/03 06:00"
+                }
+            ],
+            "references": [
+                {
+                    "refsource": "Nature. 2016 Oct 31;539(7627):126",
+                    "reftype": "Erratum in",
+                    "pmid": 27808210,
+                    "note": ""
+                }
+            ],
+            "attributes": [],
+            "pmcrefcount": 11,
+            "fulljournalname": "Nature",
+            "elocationid": "doi: 10.1038/538127a",
+            "doctype": "citation",
+            "srccontriblist": [],
+            "booktitle": "",
+            "medium": "",
+            "edition": "",
+            "publisherlocation": "",
+            "publishername": "",
+            "srcdate": "",
+            "reportnumber": "",
+            "availablefromurl": "",
+            "locationlabel": "",
+            "doccontriblist": [],
+            "docdate": "",
+            "bookname": "",
+            "chapter": "",
+            "sortpubdate": "2016/10/06 00:00",
+            "sortfirstauthor": "Perkel J",
+            "vernaculartitle": ""
+        }
+    }
+}

@@ -8,7 +8,8 @@ VS Code
 -Antwort-
 
 ## 3. Eine Fehlermeldung und Ihre Lösung
--Antwort-
+TypeError: can only concatenate str (not "int") to str 
+Lösung: in der url ein str vor IDs einfügen str(IDs[0])
 
 ## 4. Was ist JupyterLab?
 -Antwort- 
