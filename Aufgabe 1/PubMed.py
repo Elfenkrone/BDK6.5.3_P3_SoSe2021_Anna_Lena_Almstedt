@@ -1,5 +1,5 @@
 # import urllib.request, json 
-# with urllib.request.urlopen("https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=27708327") as url:
+# with urllib.request.urlopen("https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=") as url:
 #     data = json.loads(url.read().decode())
 #     print(data)
 import pandas, datetime
