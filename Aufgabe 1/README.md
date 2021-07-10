@@ -13,7 +13,7 @@ TypeError: can only concatenate str (not "int") to str
 Lösung: in der url ein str vor IDs einfügen str(IDs[0])
 
 ## 4. Was ist JupyterLab?
- Es ist die Evolution von Jupiter Notebook, mehr, neuer, besser und online
+Jupiter Notebooks wird für die unterschiedlichsten Zwecke von Programmierern verwendet, aber wies auch Defizite auf, die Usern immer wieder Schwierigkeiten bereiteten, zum Beispiel das interaktive durchlaufen lassen von Code. Deshalb wurde JupiterLab entwickelt. Es bietet alles was JupiterNotebook anbietet und mehr. Man kann zusätzlich text editoren, termianals und mehr verwenden. JupiterLab ist also eine verbesserte und erweiterte Version von JupiterNotebook.
 
 ## 5. Was ist der große Unterschied zwischen den Webframeworks flask und Django
--Antwort-
+Flask und Django sind beides Webframeworks, welche sich allerdings in gewissen Punkten von einander unterscheiden. Während Flask sich mehr an Hobbyprogrammierer richtet und relativ simpel in der Anwendung ist, ist Django hauptsächlich für Programmierer mit mehr Erfahrung. Django ist wesentlich umfangreicher als Flask und hat dadurch mehr anzubieten, ist aber auch schwerer zu verstehen und anzuwenden. 
