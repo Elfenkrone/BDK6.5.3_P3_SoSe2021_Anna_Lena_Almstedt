@@ -27,7 +27,7 @@ def actor_film_ratio():
         for i,row in enumerate(line):
             if row[3] == 'actor' and i != 0:
                 if count.get(row[2]) is None: 
-                    count[row[2]] = [[row[0]], 1, "unknown"]
+                    count[row[2]] = [[row[0]], 1, "unknown"]#TODO: WHYYYYYYYYYYY
                 if row[0] not in count.get(row[2])[0]:
                      #count[row[2]] = (count.get(row[2])[0].append(row[0]), count.get(row[2])[1] +1)
                     tmp = count.get(row[2])
