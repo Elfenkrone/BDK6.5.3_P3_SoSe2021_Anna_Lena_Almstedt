@@ -90,16 +90,25 @@ def number_genre():
         line = csv.reader(f,delimiter="\t")
         count = {}
         for i,row in enumerate(line): 
-            try:
-                if i != 0 and row[8] != "\\N": 
-                    genres = row[8].split(",")
-            except:
-                return row
+
+            if row.__len__() < 9:
+                    for k, j in enumerate(row):
+                        t = str(j).split("\t")
+                        if t.__len__() > 1:
+                            x = k
+                            for s in t:
+                                row.insert(x, s)
+                                x += 1
+                                if j in row:
+                                    row.remove(j)
+
+            if i != 0 and row[8] != "\\N": 
+                genres = row[8].split(",")
                 for genre in genres:
                     if count.get(genre) is None: 
                         count[genre] = 1
                     else: 
-                        count.get(genre) + 1
+                        count[genre] = count.get(genre) + 1
     f.close() 
     maximum = []
     maximum.append(count.popitem())
@@ -113,13 +122,8 @@ def number_genre():
 
 
 
-
-
 if __name__=="__main__":
-    #print(max_actor())
-    #print(age_producer())
-    #print(number_genre())
-    a = number_genre()
-    for i in a: 
-        i.split("\t")
-    print(a)
+    print(max_actor())
+    print(age_producer())
+    print(number_genre())
+ 
