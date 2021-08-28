@@ -3,6 +3,9 @@ import datetime
 from os import close
 
 """
+ANMERKUNG: Ich habe die Datenbanken der IMDb auf meinem PC gespeichert. Hochladen in meinen Git-Hub konnte ich die Datenbanken NICHT, da sie zu groß sind. Die Datenabanken müssen 
+also selbst nochmal installiert werden. Anders lies es sich leider nicht lösen.
+
 Fragestellung 1: Welcher Schauspieler hat bei den meisten Filmen/Serienepisoden mitgespielt? 
 Dafür habe ich im ersten Schritt alle Schauspieler aus der name.basics Datenbank extrahiert. 
 Im zweiten Schritt wurde von allen extrahierten Schauspielern die Filme und Serienepisoden, in denen sie mitgespielt haben, in der title.principals Datenbank zusammengezählt.
@@ -82,7 +85,9 @@ def age_producer():
     return age, producer_name
 
 """
-Fragestellung 3: Welches ist das häfigste Filmgenre? Welches Genre führt am meisten Filme? 
+Fragestellung 3: Welches ist das häfigste Filmgenre? In welchem Genre gibt es die meisten Filme? 
+Die Funktion durchsucht die title.basics Datenbank und zählt von jedem Film das Genre. Am Ende wird wieder das Maximum ermittelt und zurückgegeben. Am Ende erhält man das
+Genre, zu welchem es am meisten Filme gibt und die genaue Anzahl an Filmen zu diesem Genre. 
 """
 
 def number_genre(): 
